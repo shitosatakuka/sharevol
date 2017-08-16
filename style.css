@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: comfortaa;
+    ヒラギノ角ゴ;
+}
+
+/*
+@media以外の所は全てのサイズで読み込まれます。
+*/
+
+@media screen and (min-width:300px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+    .bg_fixed1 {
+        height: 670px;
+        background-image: url('/pic/IMG_0445.JPG');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 1;
+    }
+    .bg_fixed2 {
+        height: 670px;
+        background-image: url('/pic/IMG_0447.JPG');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 1;
+    }
+    .scroll {
+        height: 670px;
+        background-color: #A8B8D5;
+        z-index: 2;
+    }
+}
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+    
+}
+
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む　*/
+    
+}
