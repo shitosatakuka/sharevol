@@ -6,6 +6,9 @@ body {
 h1 {
     font-family: comfortaa;
     ヒラギノ角ゴ;
+    text-align: center;
+    margin: 5px;
+    color: rgba(20,20,20);
 }
 
 /*
@@ -23,6 +26,15 @@ h1 {
         background-position: center center;
         z-index: 1;
     }
+    .textbox1 {
+        font-size: 30px;
+        background-color: rgba(255,255,255,0.3);
+        width: 80%;
+        height: 500px;
+        text-align: center;
+        padding-top: 30px;
+        margin: 0px 10px 30px 40px;
+    }
     .bg_fixed2 {
         height: 670px;
         background-image: url('/pic/IMG_0447.JPG');
@@ -34,7 +46,7 @@ h1 {
     }
     .scroll {
         height: 670px;
-        background-color: #A8B8D5;
+        background-color: #76B82A;
         z-index: 2;
     }
 }
