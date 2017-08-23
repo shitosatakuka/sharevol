@@ -40,6 +40,12 @@ h1 {
         padding-top: 30px;
         margin: 0px 20px 30px;
     }
+    .textbox1 p{
+        font-size: 30px;
+        font-family: comfortaa;
+        text-align: left;
+        padding: 0 0 0 70px;
+    }
     .bg_fixed2 {
         height: 670px;
         background-image: url('/pic/IMG_0447.JPG');
