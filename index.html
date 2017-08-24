@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta property="og:title" content="あしなが学生募金">
+<meta property="og:description" content="#sharevol ＃シェアボラ">
+<meta property="og:image" content="https://tpc.googlesyndication.com/simgad/17315114519604213695">
+<meta property="og:type" content="non_profit" />
+<meta property="og:url" contetnt="http://www.ashinaga-gauseibokin.org">
     <title>あしなが学生募金</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -15,25 +20,50 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <h1>#sharevol</h1>
-<div id="content">
-    <div class="bg_fixed1">
-        <div class="textbox1">
-            シェアして<br>ボランティアに<br>参加しませんか？<br><br>シェアする事で多くの人にしってもらうこと<br>が出来ます。一人でも多くの人に<br>遺児の現状や教育の大切さを知ってもらいたいと思っています。<br><br>
-            <p>VOLUNTEER<br>by<br>SHARING</p>
+    <div id="content">
+        <div class="bg_fixed1">
+            <div class="textbox1">
+                シェアして<br>ボランティアに<br>参加しませんか？<br><br>シェアする事で多くの人にしってもらうこと<br>が出来ます。一人でも多くの人に<br>遺児の現状や教育の大切さを知ってもらいたいと思っています。<br><br>
+                <p>VOLUNTEER<br>by<br>SHARING</p>
+            </div>
+        </div>
+
+        <div class="scroll"></div>
+
+        <div class="bg_fixed2"></div>
+
+        <div class="scroll">
+
         </div>
     </div>
-
-    <div class="scroll"></div>
-
-    <div class="bg_fixed2"></div>
-
-    <div class="scroll">
-
-    </div>
-</div>
     <div id="footer">
-        <ul id="shareyou">
+        <ul class="sns">
+            <li class="sns-fb">
+                <a href=""><img src="/pic/facebook_orange.png" alt="Facebook" class="icon"></a>
+            </li>
+            <li class="sns-tw">
+                <a href=""><img src="/pic/twitter_orange.png" alt="Twitter" class="icon"></a>
+            </li>
+            <li class="sns-gp">
+                <a href=""><img src="/pic/google_orange.png" class="icon" alt="Google+"></a>
+            </li>
+            <li class="sns-line">
+                <a href=""><img src="/pic/line_orange.png" alt="line" class="icon"></a>
+            </li>
+        </ul>
+        <!--        <ul id="shareyou">
             <li>
                 <div class="sns_icon facebook_back">
                     <a href="" target="_blank" title="Facebookでシェア"><img src="/pic/facebook_orange.png" alt="facebook" class=icon></a>
@@ -49,17 +79,17 @@
                     <a href="" target="_blank" title="Google+で共有"><img src="/pic/google_orange.png" alt="googleplus" class=icon></a>
                 </div>
             </li>
-            <!--                <li>-->
-            <!--                    <div class="sns_icon  hatena_back">-->
-            <!--                        <a href="" target="_blank" title="はてなブックマークに登録"><img src="/images/social_hatena.png" alt="はてなブックマーク" class=icon></a>-->
-            <!--                    </div>-->
-            <!--                </li>-->
+                            <li>
+                                <div class="sns_icon  hatena_back">
+                                    <a href="" target="_blank" title="はてなブックマークに登録"><img src="/images/social_hatena.png" alt="はてなブックマーク" class=icon></a>
+                                </div>
+                            </li>
             <li>
                 <div class="sns_icon line_back">
                     <a href="" target="_blank" title="LINEに送る"><img src="/pic/line_orange.png" alt="LINE" class=icon></a>
                 </div>
             </li>
-        </ul>
+        </ul>-->
         <p>©あしなが学生募金 since 2017 All rights reserved</p>
     </div>
 </body>
