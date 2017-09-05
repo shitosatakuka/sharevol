@@ -16,7 +16,7 @@ h1 {
 @media以外の所は全てのサイズで読み込まれます。
 */
 
-@media screen and (min-width:300px) {
+/*@media screen and (min-width:300px) {*/
     /*　画面サイズが480pxからはここを読み込む　*/
     #content {
         width: 100%;
@@ -69,6 +69,17 @@ h1 {
         background-position: center center;
         z-index: 1;
     }
+
+    .bg_fixed3 {
+        height: 690px;
+        background-image: url('/pic/IMG_0517.JPG');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: -450px 0px;
+        z-index: 1;
+    }
+    
     .scroll {
         height: 690px;
         background-color: #76B82A;
@@ -82,6 +93,10 @@ h1 {
         margin-right: auto;
         padding-top: 5%;
     }
+    h2 {
+        margin: 0;
+    }
+    
     #footer {
         z-index: 3;
         bottom: 0;
