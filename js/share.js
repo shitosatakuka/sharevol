@@ -82,7 +82,7 @@ $(function () {
     var footer = $('#footer');
     var slide = $('#slide');
     //画面下位置を取得
-    var bottomPos = $(document).height() - $(window).height() - 100;
+    var bottomPos = $(document).height() - $(window).height() -100;
     var showFlug = false;
 
     // ウィンドウより小さかったら開く

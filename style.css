@@ -16,118 +16,138 @@ h1 {
 @media以外の所は全てのサイズで読み込まれます。
 */
 
-/*@media screen and (min-width:300px) {*/
-    /*　画面サイズが480pxからはここを読み込む　*/
-    #content {
-        width: 100%;
-        position: relative;
-    }
-    .bg_fixed1 {
-        width: 100%;
-        height: 670px;
-        background-image: url('/pic/IMG_0445.JPG');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center center;
-        z-index: 1;
-    }
-    .textbox1 {
-        font-size: 15px;
-        background-color: rgba(255, 255, 255, 0.3);
-        width: 90%;
-        height: 620px;
-        text-align: center;
-        padding-top: 5%;
-        margin-left: auto;
-        margin-right: auto
-    }
-    .textbox1 p {
-        font-size: 18px;
-        font-family: comfortaa;
-        text-align: left;
-        padding-left: auto;
-        display: block;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .textbox1 h1 {
-        font-size: 35px;
-        font-family: comfortaa;
-        text-align: left;
-        padding-left: auto;
-        display: block;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .bg_fixed2 {
-        height: 690px;
-        background-image: url('/pic/IMG_0447.JPG');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center center;
-        z-index: 1;
-    }
 
-    .bg_fixed3 {
-        height: 690px;
-        background-image: url('/pic/IMG_0517.JPG');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: -450px 0px;
-        z-index: 1;
-    }
-    
-    .scroll {
-        height: 690px;
-        background-color: #76B82A;
-        z-index: 2;
-    }
-    .koe {
-        width: 95%;
-        height: 37%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5%;
-    }
-    h2 {
-        margin: 0;
-    }
-    
-    #footer {
-        z-index: 3;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    ul {
-        list-style: none;
-    }
-    img.icon {
-        width: 15%;
-        float: left;
-        /*        padding: 10px 10px 5px;*/
-        margin: 2%;
-        padding: 2%;
-        background: rgba(255, 255, 255, 0.6);
-    }
-    #footer p {
-        clear: both;
-        font-size: 10px;
-        font-family: comfortaa;
-        text-align: center;
-    }
+/*@media screen and (min-width:300px) {*/
+
+
+/*　画面サイズが480pxからはここを読み込む　*/
+
+#content {
+    width: 100%;
+    position: relative;
 }
 
+.bg_fixed1 {
+    width: 100%;
+    height: 100%;/*670px*/
+    background-image: url('/pic/IMG_0445.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+}
+
+.textbox1 {
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 90%;
+    height: 620px;
+    text-align: center;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.textbox1 p {
+    font-size: 18px;
+    font-family: comfortaa;
+    text-align: left;
+    padding-left: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textbox1 h1 {
+    font-size: 35px;
+    font-family: comfortaa;
+    text-align: left;
+    padding-left: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bg_fixed2 {
+    height: 690px;
+    background-image: url('/pic/IMG_0447.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+}
+
+.bg_fixed3 {
+    height: 690px;
+    background-image: url('/pic/IMG_0517.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: -450px 0px;
+    z-index: 1;
+}
+
+.scroll {
+    height: 690px;
+    background-color: #76B82A;
+    z-index: 2;
+}
+
+.title {
+    margin-top: 0;
+    color:
+}
+
+.koe {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    color: #2E2E2E;
+}
+
+h2 {
+    margin: 0;
+}
+
+#footer {
+    z-index: 3;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+img.icon {
+    width: 15%;
+    float: left;
+    /*        padding: 10px 10px 5px;*/
+    margin: 2%;
+    padding: 2%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#footer p {
+    clear: both;
+    font-size: 10px;
+    font-family: comfortaa;
+    text-align: center;
+    color: #FFF;
+}
+
+
+}
 @media screen and (min-width:768px) and ( max-width:1024px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む　*/
 }
-
 @media screen and (min-width:1024px) {
     /*　画面サイズが1024pxからはここを読み込む　*/
 }
